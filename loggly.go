@@ -1,18 +1,20 @@
 package loggly
 
-import . "github.com/visionmedia/go-debug"
-import . "encoding/json"
-import "io/ioutil"
-import "net/http"
-import "strings"
-import "bytes"
-import "time"
-import "sync"
-import "fmt"
-import "os"
-import "io"
+import (
+	"bytes"
+	. "encoding/json"
+	"fmt"
+	. "github.com/visionmedia/go-debug"
+	"io"
+	"io/ioutil"
+	"net/http"
+	"os"
+	"strings"
+	"sync"
+	"time"
+)
 
-const Version = "0.4.3"
+const Version = "0.4.4"
 
 const api = "https://logs-01.loggly.com/bulk/{token}"
 

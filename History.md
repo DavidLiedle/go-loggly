@@ -1,3 +1,8 @@
+v0.4.4 / 2015-10-05
+==================
+
+ * Changed to single `import()` statement
+ * Updated Readme.md with more detailed docs
 
 v0.4.3 / 2014-07-31
 ==================

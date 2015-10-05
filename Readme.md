@@ -14,7 +14,7 @@
 
 	package main
 	
-	import github.com/segmentio/go-loggly
+	import "github.com/segmentio/go-loggly"
 	
 	const logglyToken    = "insert-your-token-here"
 	const logglyAccount  = "logglySubDomainAccountNameHere"

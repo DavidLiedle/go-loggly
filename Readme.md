@@ -39,7 +39,7 @@
 
 ## Debug
 
- Enable verbose debugging output using the __DEBUG__ environment variable, for exmaple `DEBUG=loggly`.
+ Enable verbose debugging output using the __DEBUG__ environment variable, for example `DEBUG=loggly`.
 
 ## License
 
